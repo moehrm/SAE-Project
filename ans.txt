@@ -1,0 +1,4 @@
+Task B
+1. Not possible
+4 time point can at most give 6 time slots and at most 3 consecutive and not overlapping ones.
+Therefore, under given constraints only 3 * 2 = 6 performances can take place.
