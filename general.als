@@ -11,6 +11,7 @@ abstract sig Athlete { }
 sig MaleAthlete extends Athlete { }
 sig FemaleAthlete extends Athlete { }
 
+
 fact athleteFacts {
 	// Every Athlete is citizen of some country (countries).
 	all athlete: Athlete | some country: Country | athlete in country.athletes
